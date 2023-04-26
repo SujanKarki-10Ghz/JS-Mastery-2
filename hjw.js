@@ -2,7 +2,7 @@
 
 /**compilation
  * Compilation phase:
- *              => tokenizing / lexing => divding codes into small chunks
+ *              => tokenizing / lexing => dividing codes into small chunks
  *              => Parsing => parses that chunks of code
  *              => Abstract Syntax Tree  => Code Generation
  */
