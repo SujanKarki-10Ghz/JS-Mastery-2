@@ -8,6 +8,7 @@
     <title>DOM TUTORIAL</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <!-- <script src="script.js" async></script> => parsing and executing in parallel -->
 </head>
 
 <body>
@@ -15,13 +16,13 @@
         <nav class="container">
             <h1 class="logo">Website</h1>
             <ul class="nav-items">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Todo</a></li>
-                <li><a href="#">Sign Up</a></li>
+                <li class="nav-lists"><a href="#home">Home</a></li>
+                <li class="nav-lists"><a href="#">Todo</a></li>
+                <li class="nav-lists"><a href="#">Sign Up</a></li>
             </ul>
         </nav>
         <div class="headline">
-            <h2>Manage your tasks</h2>
+            <h2 id="main-heading">Manage your tasks</h2>
             <button class="btn btn-headline">Learn More</button>
         </div>
     </header>
