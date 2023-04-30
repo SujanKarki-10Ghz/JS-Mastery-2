@@ -43,3 +43,25 @@
 
 // const inputEl = document.querySelector(".form-todo input");
 // console.log(inputEl.getAttribute("type")); //=>text
+
+
+
+/** get multiple elements using getElements by class Name */
+// const allNavLists = document.getElementsByClassName("nav-lists");
+// const allNavLists = document.getElementsByTagName("a");
+// console.log(allNavLists); //=>HTML Collections(3) > li.nav-lists, li.nav-lists, li.nav-lists => array like objects
+// // indexing, length property, looping etc.
+// // simple for of loop, simple for loop, we cant use forEach method to iterate through HTMLCollection
+// console.log(typeof allNavLists); //=> object
+// console.log(Array.isArray(allNavLists)); //=> false
+// console.log(allNavLists.length);
+// for( let i =0; i<allNavLists.length; i++){
+//     let navItems = allNavLists[i];
+//     navItems.style.backgroundColor = "#fff";
+//     navItems.style.color = "green";
+// }
+
+
+/**get multiple elements using querySelectorAll */
+// const allNavLists = document.querySelectorAll(".nav-lists");
+// console.log(allNavLists); // => Nodelist(3) [li.nav-lists, li.nav-lists, li.nav-lists]
