@@ -18,12 +18,12 @@
 // const navItems = document.querySelectorAll(".nav-lists"); //selects all elements with className nav-lists
 // console.log(navItems); => nodeLists(3)
 
+
 /**change text of elements  */
 
 // textContent, innerText
 // const headerEl = document.getElementById("main-heading");
 // headerEl.innerText = "hello"; //=> changes the innerText to hello and gives only visible text unlike textContent 
-
 // headerEl.textContent = "Hello"; //=> gives all the textContent either visible or not
 
 
@@ -65,3 +65,20 @@
 /**get multiple elements using querySelectorAll */
 // const allNavLists = document.querySelectorAll(".nav-lists");
 // console.log(allNavLists); // => Nodelist(3) [li.nav-lists, li.nav-lists, li.nav-lists]
+
+
+
+/**INNERHTML */
+const headline = document.querySelector(".headline");
+// console.log(headline.innerHTML);
+//output: gives HTML inside the headline div 
+//<h2 id="main-heading">Manage your tasks</h2>
+//<button class="btn btn-headline">Learn More</button>
+
+//LETS CHANGE INNERHTML
+headline.innerHTML = "<h1>Inner HTML changed</h1>"
+//let us add button to innerHTML
+headline.innerHTML+= "<button class='btn btn-headline'>Learn More</button>"
+console.log(headline.innerHTML);
+//=> o/p
+//<h1>Inner HTML changed</h1>
