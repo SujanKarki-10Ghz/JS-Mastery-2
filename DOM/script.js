@@ -69,16 +69,27 @@
 
 
 /**INNERHTML */
-const headline = document.querySelector(".headline");
-// console.log(headline.innerHTML);
-//output: gives HTML inside the headline div 
-//<h2 id="main-heading">Manage your tasks</h2>
-//<button class="btn btn-headline">Learn More</button>
+// const headline = document.querySelector(".headline");
+// // console.log(headline.innerHTML);
+// //output: gives HTML inside the headline div 
+// //<h2 id="main-heading">Manage your tasks</h2>
+// //<button class="btn btn-headline">Learn More</button>
 
-//LETS CHANGE INNERHTML
-headline.innerHTML = "<h1>Inner HTML changed</h1>"
-//let us add button to innerHTML
-headline.innerHTML+= "<button class='btn btn-headline'>Learn More</button>"
-console.log(headline.innerHTML);
-//=> o/p
-//<h1>Inner HTML changed</h1>
+// //LETS CHANGE INNERHTML
+// headline.innerHTML = "<h1>Inner HTML changed</h1>"
+// //let us add button to innerHTML
+// headline.innerHTML+= "<button class='btn btn-headline'>Learn More</button>"
+// console.log(headline.innerHTML);
+// //=> o/p
+// //<h1>Inner HTML changed</h1>
+
+
+/**classlist add remove, toggle classes */
+// const sectionTodo = document.querySelector(".todo-section");
+ // console.log(sectionTodo.classList); //=> DOMTokenList(2) ["todo-section", "container" value: "todo-section container"]
+// // sectionTodo.classList.add("bg-dark"); //=> adding class bg-dark to todo-section
+// // sectionTodo.classList.remove("container"); //=> removing container class from todo-section
+// // const ans = sectionTodo.classList.contains("container");
+// // console.log(ans);//=>true
+// sectionTodo.classList.toggle("bg-dark");
+// sectionTodo.classList.toggle("bg-dark");
