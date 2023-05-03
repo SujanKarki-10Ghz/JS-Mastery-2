@@ -36,6 +36,7 @@
 // changeStyle.style.backgroundColor = "#fff";
 
 
+
 /**GET AND SET ATTRIBUTES */
 // const link = document.querySelector("a"); //=> gives first anchor tag
 // console.log(link.getAttribute("href").slice(1)); //=>#home
@@ -83,6 +84,12 @@
 // //=> o/p
 // //<h1>Inner HTML changed</h1>
 
+//INNERHTML To ADD HTML ELEMENT
+// const todoList = document.querySelector(".todo-list");
+// todoList.innerHTML+="<li> New ToDo </li>"
+// todoList.innerHTML+="<li> Teach your students </li>"
+
+
 
 /**classlist add remove, toggle classes */
 // const sectionTodo = document.querySelector(".todo-section");
@@ -93,3 +100,24 @@
 // // console.log(ans);//=>true
 // sectionTodo.classList.toggle("bg-dark");
 // sectionTodo.classList.toggle("bg-dark");
+
+
+
+/**CREATE ELEMENT, APPEND PREPEND AND REMOVE */
+// const newTodoItem = document.createElement("li");
+// newTodoItem.textContent = "Teach Students";
+// const todoList = document.querySelector(".todo-list");
+/**Append prepend */
+// // todoList.prepend(newTodoItem);
+// todoList.append(newTodoItem);
+
+/**Remove */
+// const todo = document.querySelector(".todo-list li");
+// todo.remove();
+
+/**Before After*/
+// const newTodoItem = document.createElement("li");
+// newTodoItem.textContent = "Teach Students";
+// const todoList = document.querySelector(".todo-list");
+// todoList.before(newTodoItem); //before ul list 
+
