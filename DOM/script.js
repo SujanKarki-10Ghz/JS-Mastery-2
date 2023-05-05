@@ -121,3 +121,9 @@
 // const todoList = document.querySelector(".todo-list");
 // todoList.before(newTodoItem); //before ul list 
 
+
+/**Get Dimension of an element */
+// const sectionTodo = document.querySelector(".todo-section");
+// // const info = sectionTodo.getBoundingClientRect();
+// const info = sectionTodo.getBoundingClientRect().height;
+// console.log(info);
