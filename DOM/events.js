@@ -36,3 +36,35 @@
 // btnEl.addEventListener("click", ()=>{
 //     console.log("clicked!!!");
 // })
+
+
+/**This keyword in events*/
+// const btnEl = document.querySelector(".btn-headline");
+// btnEl.addEventListener("click", function(){
+//     console.log("clicked!!!");
+//     console.log(this); // <button class="btn btn-headline">Learn More</button>
+//     //In arrow fxn, value of this is window because arrow fxn has no this binding
+// })
+
+
+/**click event on multiple buttons */
+// const buttons = document.querySelectorAll(".my-buttons button");
+// console.log(buttons); // NodeList(3) [button#one, button#two, button#three]
+
+// for (let button of buttons){
+//     button.addEventListener("click", ()=>{
+//         console.log("clicked");
+//     })
+// }
+
+// for(let button of buttons){
+//     button.addEventListener("click", function(){
+//         console.log(this);
+//     })
+// }
+
+// buttons.forEach((items)=>{
+//     items.addEventListener("click", function(){
+//         console.log(this);
+//     })
+// })
