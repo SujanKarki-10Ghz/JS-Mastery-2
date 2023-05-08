@@ -68,3 +68,14 @@
 //         console.log(this);
 //     })
 // })
+
+
+/* Practises*/
+
+// const allBtnEl = document.querySelectorAll(".my-buttons button");
+// allBtnEl.forEach((btn)=>{
+//     btn.addEventListener("click", (e)=>{
+//         e.target.style.backgroundColor = "yellow";
+//         e.target.style.color = "#333";
+//     })
+// })
