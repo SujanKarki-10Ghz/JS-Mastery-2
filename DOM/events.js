@@ -79,3 +79,19 @@
 //         e.target.style.color = "#333";
 //     })
 // })
+
+/**KEY PRESS EVENT */
+// const body = document.body;
+// body.addEventListener("keypress", (e)=>{
+//     console.log(e.key);
+// })
+
+
+/**Mouse over event */
+
+// const mainBtn = document.querySelector(".btn-headline");
+// console.log(mainBtn);
+// mainBtn.addEventListener("mouseover",()=>{
+//     console.log("mouseover!!!");
+// })
+
