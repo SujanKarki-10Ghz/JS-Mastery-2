@@ -109,9 +109,12 @@ nav{
 .todo-list li{
     padding: 0.7rem;
     background: #444;
-    color: cyan;
+    color: white;
     margin-top: 1rem;
     text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
 }
 
@@ -155,4 +158,11 @@ nav{
     display: block;
     margin: auto;
     margin-top: 1rem;
+}
+
+.todo-btn{
+    padding:0.5rem 1rem ;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
 }

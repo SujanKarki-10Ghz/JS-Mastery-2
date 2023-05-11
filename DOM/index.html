@@ -10,6 +10,7 @@
     <script src="script.js" defer></script>
     <script src="script2.js" defer></script>
     <script src="events.js" defer></script>
+    <script src="eventDelegate.js" defer></script>
     <!-- <script src="script.js" async></script> => parsing and executing in parallel -->
 </head>
 
@@ -36,11 +37,18 @@
         </form>
         <ul class="todo-list">
             <!-- <li>todo-1</li> -->
-            <li>items 1</li>
+            <!-- <li>items 1</li>
             <li>items 2</li>
             <li>items 3</li>
             <li>items 4</li>
-            <li>items 5</li>
+            <li>items 5</li> -->
+            <li>
+                <span class="text">Item1</span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">Done</button>
+                    <button class="todo-btn remove">Remove</button>
+                </div>
+            </li>
         </ul>
     </section>
     <section class="section-signup container">
